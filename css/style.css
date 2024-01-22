@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+
+.header {
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/ngm00006203-64551aecd322e.jpg?crop=1.00xw:0.847xh;0,0.0255xh&resize=1200:*');
+}
+
+
+.centraal-gedeelte {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.linkerdeel {
+    flex-basis: 30%;
+}
+
+.kolom {
+    width: 100%;
+}
+
+
+.rechterdeel {
+    flex-basis: 65%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.artikel {
+    margin-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+    .centraal-gedeelte {
+        flex-direction: row; 
+    }
+
+    .linkerdeel,
+    .rechterdeel {
+        width: 48%; 
+        margin-right: 2%;
+    }
+}
